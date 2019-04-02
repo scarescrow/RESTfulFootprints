@@ -56,7 +56,7 @@ func main() {
             fmt.Println(err)
         }
 
-        database, err := sql.Open("sqlite3", "./buildings.db")
+        database, err := sql.Open("sqlite3", "./assets/buildings.db")
         if err != nil {
             fmt.Println(err)
         }
